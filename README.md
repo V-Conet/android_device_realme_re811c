@@ -4,4 +4,4 @@
 - Known issues: OTG not working.
 - OTA update woking fine.
 
-Other: [RMX3142 related](https://od.vcox.eu.org/%E5%88%B7%E6%9C%BA/RMX/)
+Other: [RMX3142 related](https://od.vcox.top/%E5%88%B7%E6%9C%BA/RMX/)
