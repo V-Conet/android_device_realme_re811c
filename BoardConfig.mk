@@ -96,7 +96,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # Root
 BOARD_SUPPRESS_SECURE_ERASE := true
-BOARD_ROOT_EXTRA_FOLDERS += metadata my_version my_stock my_region my_product my_preload my_manifest my_heytap my_engineering my_company my_carrier my_bigball opporeserve
+BOARD_ROOT_EXTRA_FOLDERS += metadata my_version my_stock my_region my_product my_preload my_manifest my_heytap my_engineering my_company my_carrier my_bigball opporeserve usb_otg
 
 # Crypto
 BOARD_USES_QCOM_FBE_DECRYPTION := true

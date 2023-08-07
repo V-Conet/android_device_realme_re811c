@@ -6,3 +6,6 @@ vendor.gatekeeper.disable_spu=true
 
 # Battery Property
 ro.charger.enable_suspend=1
+
+# Device Info
+ro.separate.soft=2065C

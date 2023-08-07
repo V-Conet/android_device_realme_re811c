@@ -10,6 +10,8 @@ DEVICE_PATH := device/realme/RE811C
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Release name
 PRODUCT_RELEASE_NAME := RE811C
 
