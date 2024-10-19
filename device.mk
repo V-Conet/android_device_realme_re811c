@@ -26,12 +26,6 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 PRODUCT_PACKAGES += \
     bootctrl.lito.recovery
 
-# SHIPPING API
-PRODUCT_SHIPPING_API_LEVEL := 30
-
-# VNDK API
-PRODUCT_TARGET_VNDK_VERSION := 31
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
@@ -42,5 +36,4 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(DEVICE_PATH)/security/realme_releasekey
 
-# PRODUCT_RELEASE_NAME ro.twrp.device.name
-PRODUCT_PROPERTY_OVERRIDES += ro.twrp.device.name=$(PRODUCT_RELEASE_NAME)
+TW_DEVICE_VERSION := by VConet
